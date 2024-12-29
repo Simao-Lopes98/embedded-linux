@@ -1,0 +1,4 @@
+config BR2_PACKAGE_MY_BLINK_APP
+    bool "my_blink_app"
+    help
+      Simple blink and print routine for RasPi 3.
