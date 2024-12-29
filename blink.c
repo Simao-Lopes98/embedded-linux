@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     int err;
     int counter = 10;
 
-    chip = gpiod_chip_open (GPIO_CONSUMER);
+    chip = gpiod_chip_open (GPIO_CHIP);
     
     if (chip == NULL)
     {
